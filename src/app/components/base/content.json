@@ -1,0 +1,45 @@
+{
+    "lacus": {
+        "id": "lacus",
+        "title": "HOLA SOY LACUS",
+        "description": "Soy Mateo, porque lorem ipsum dolor sit amet, y Eddy me chupa un huevo mientras José sólo chimbea a Mendieta y éste se llena de canas. Soy lacus, porque lorem ipsum dolor sit amet, y Eddy me chupa un huevo mientras José sólo chimbea a Mendieta y éste se llena de canas. Soy lacus, porque lorem ipsum dolor sit amet, y Eddy me chupa un huevo mientras José sólo chimbea a Mendieta y éste se llena de canas.",
+        "images": [""],
+        "videoSrc": "",
+        "toolsTitle": "Soy el título de los tools",
+        "toolsImgSrc": ["", ""],
+        "designImageSrc": "/static/img/lacusScreens.png",
+        "colorScheme": "#0288d1",
+        "link": "",
+        "credits": "Foo Studio()",
+        "roll": "UX / UI Designer + Frontend Developer",
+        "wireframesSrc": "/static/img/userflow.png"
+    },
+    "kala": {
+        "id": "kala",
+        "title": "HOLA SOY KALA",
+        "description": "Soy lacus, porque lorem ipsum dolor sit amet, y Eddy me chupa un huevo mientras José sólo chimbea a Mendieta y éste se llena de canas.",
+        "images": [""],
+        "videoSrc": "",
+        "toolsTitle": "Soy el título de los tools",
+        "toolsImgSrc": ["", ""],
+        "designImageSrc": "/static/img/kalaScreens.png",
+        "colorScheme": "#fff",
+        "link": "www.kala.fooprojects.com",
+        "credits": "Foo Studio()",
+        "roll": "Frontend Developer"
+    },
+    "stdrama": {
+        "id": "stdrama",
+        "title": "HOLA SOY SWAP THE DRAMA",
+        "description": "Soy lacus, porque lorem ipsum dolor sit amet, y Eddy me chupa un huevo mientras José sólo chimbea a Mendieta y éste se llena de canas.",
+        "images": [""],
+        "videoSrc": "",
+        "toolsTitle": "Soy el título de los tools",
+        "toolsImgSrc": ["", ""],
+        "designImageSrc": "/static/img/kalaScreens.png",
+        "colorScheme": "#0a7a06",
+        "link": "www.kala.fooprojects.com",
+        "credits": "Foo Studio()",
+        "roll": "UX / UI Designer + Frontend Developer"
+    }
+}

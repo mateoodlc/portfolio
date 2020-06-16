@@ -1,0 +1,112 @@
+// AboutComponent
+
+@import "~styles/vars";
+
+.AboutComponent
+    display block
+    background white
+    overflow hidden
+    cursor default
+    lost-utility clearfix
+
+.info-details
+    position relative
+    display flex
+    justify-content center
+    align-content center
+    align-items center
+    height 100%
+    lost-column 8/12 0 0
+    background white
+
+.photo-of-me
+    lost-column 5/12 0 0
+    position relative
+    height 100%
+    background-image url("https://images.pexels.com/photos/702139/pexels-photo-702139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    background-size cover
+    background-position center
+
+.about-information
+    display block
+    color black
+    font-family 'Gibson'
+    width 800px
+    padding-left 50px
+    padding-right 20px
+    h1
+        display inline-block
+
+.closeBtn
+    position absolute
+    display flex
+    justify-content center
+    align-items center
+    flex-direction column
+    width 10%
+    height 10%
+    top 80%
+    left 10%
+    color black
+    cursor pointer
+    h2
+        position relative
+        display block
+        width 100%
+        &:before
+            content ''
+            position absolute
+            display block
+            top 50%
+            width 0px
+            height 2px
+            background white
+            transition all 0.5s
+    &:hover
+        h2
+            position relative
+            &:before
+                width 100%
+                transition all 0.5s
+
+.close-arrow
+    display flex
+    justify-content center
+    width 100%
+    height 50px
+
+
+.close-line1
+    content ''
+    position absolute
+    display block
+    width 20px
+    height 1px
+    left 12%
+    transform rotate(45deg)
+    background black
+    top 60%
+
+.close-line2
+    content ''
+    position absolute
+    display block
+    left 21%
+    width 20px
+    height 1px
+    transform rotate(-45deg)
+    background black
+    top 60%
+
+.aspects-items
+    position relative
+    display flex
+    justify-content space-between
+    align-content space-between
+    width 100%
+    text-transform uppercase
+    font-size 13px
+    letter-spacing 6px
+    .item
+        padding 1em
+        width 80%
