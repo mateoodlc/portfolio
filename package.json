@@ -21,7 +21,7 @@
         "domready": "^1.0.8",
         "es6-promise": "^4.2.4",
         "fullscreen-handler": "^0.0.2",
-        "gsap": "^1.20.3",
+        "gsap": "^3.6.0",
         "insert-rule": "^2.1.0",
         "iphone-inline-video": "^2.2.2",
         "ismobilejs": "^0.4.1",
